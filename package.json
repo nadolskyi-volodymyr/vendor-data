@@ -1,0 +1,20 @@
+{
+  "name": "full-stack-to-deploy",
+  "version": "1.0.0",
+  "description": "Udemy course",
+  "main": "index.js",
+  "repository": "https://github.com/nadolskyi-volodymyr/vendor-data.git",
+  "author": "nadolskyi-volodymyr <nadolskyi1991@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.782.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
